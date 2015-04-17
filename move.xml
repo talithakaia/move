@@ -2,6 +2,11 @@
   <block type="movement_stutter" id="111" x="283" y="127">
     <next>
       <block type="robot_delay" id="101" inline="true">
+        <value name="DELAY">
+          <block type="math_number" id="143">
+            <field name="NUM">2000</field>
+          </block>
+        </value>
         <next>
           <block type="movement_reverse" id="83">
             <next>
